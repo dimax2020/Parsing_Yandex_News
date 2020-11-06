@@ -1,2 +1,2 @@
 Запускаем Cron и вводим команду, которая будет запускать наш скрипт каждые 10 минут
-10 * * * * /yourdirectory/ScriptPY.py
+10 * * * * /my/directory/ScriptPY.py
