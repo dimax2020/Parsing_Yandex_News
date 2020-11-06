@@ -1,2 +1,5 @@
 Запускаем Cron и вводим команду, которая будет запускать наш скрипт каждые 10 минут
-10 * * * * /my/directory/ScriptPY.py
+10 * * * * python /my/directory/ScriptPY.py
+
+
+https://crontab.guru/ - удобный сайт для расчета времени в cron
