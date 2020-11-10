@@ -25,7 +25,7 @@ for k in allnews:
         cell = sheet.cell(row=i, column=1)  # это происходит довольно долго.
         if k.text == cell.value:
             a += 1
-            print(a)
+            print('еще' , a, 'совпадение')
     if a == 0:
         cell = sheet.cell(row=rows + 1, column=1)
         cell.value = k.text
